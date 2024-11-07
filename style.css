@@ -1,11 +1,48 @@
 body {
     font-family: sans-serif;
-}
-
-h1{
+  }
+  
+  h1 {
     font-family: fantasy;
-}
-
-#container {
+  }
+  
+  #container {
     margin: 5rem;
-}
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .catchphrase {
+    font-size: 1.5rem;
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  .number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff5733;
+    margin-bottom: 2rem;
+  }
+  
+  #button-clicker {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #button-clicker:hover {
+    background-color: #0056b3;
+  }
+  
