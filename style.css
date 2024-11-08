@@ -45,4 +45,20 @@ body {
   #button-clicker:hover {
     background-color: #0056b3;
   }
+
+  #button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #button:hover {
+    background-color: #0056b3;
+  }
+  
   
